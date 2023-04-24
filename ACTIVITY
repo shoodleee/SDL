@@ -1,0 +1,14 @@
+n = 20
+total_numbers = n
+sum = 0
+Average = 0
+
+while n > 0:
+    sum += n
+    n -= 1
+
+print("sum:", sum)
+
+Average = sum / total_numbers
+
+print("Average:", Average)
